@@ -1,0 +1,25 @@
+{
+  "name": "ms-reportjs",
+  "version": "0.0.1",
+  "description": "microservice made with nodejs to create reports from api datasources",
+  "main": "ms-reportjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ms-reportjs"
+  },
+  "keywords": [
+    "report",
+    "js",
+    "xlsx"
+  ],
+  "author": "Ivan Augusto",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect": "^3.7.0",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.0",
+    "nodemon": "^1.19.0",
+    "request": "^2.88.0"
+  }
+}

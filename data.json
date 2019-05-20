@@ -1,0 +1,35 @@
+{
+    "fileName": "report.xlsx",
+    "title": "Planilha 1",
+    "heading": [
+        "Nome",
+        "Idade"
+    ],
+    "rows": [
+        {
+            "nome": "Ivan",
+            "idade": 34,
+            "sexo": "Masculino"
+        },
+        {
+            "nome": "Gláucia",
+            "idade": 29,
+            "sexo": "Feminino"
+        },
+        {
+            "nome": "Gustavo",
+            "idade": 38,
+            "sexo": "Masculino"
+        },
+        {
+            "nome": "Marcus",
+            "idade": 35,
+            "sexo": "Masculino"
+        },
+        {
+            "nome": "Adelino",
+            "idade": 15,
+            "sexo": "Masculino"
+        }
+    ]
+}
