@@ -20,7 +20,6 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "connect": "^3.7.0",
     "excel4node": "^1.7.2",
     "express": "^4.17.0",
     "nodemon": "^1.19.0",
