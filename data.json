@@ -27,7 +27,7 @@
                 "Nome",
                 "Idade"
             ],
-            "dataSource": "/api/residentes"
+            "dataSource": "/api/residentes?fields=nome,idade"
         },
         {
             "title": "Planilha 2",
@@ -35,7 +35,7 @@
                 "Nome",
                 "Idade"
             ],
-            "dataSource": "/api/preceptores"
+            "dataSource": "/api/preceptores?fields=nome,idade"
         }
 
     ]
