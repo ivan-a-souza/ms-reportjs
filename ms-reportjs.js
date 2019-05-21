@@ -1,10 +1,13 @@
 const express = require('express');
 const request = require('request');
 const bodyParser = require('body-parser');
+const morgan = require('morgan');
 const xl = require('excel4node');
 const port = 7890;
 
 const app = express();
+
+app.use(morgan('combined'));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
