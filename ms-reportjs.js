@@ -11,8 +11,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/'));
 
 app.get('/', (req, res) => {
-  res.write('Hello!');
-})
+  res.json({
+    msg: "access /xlsx to generate a report"
+  });
+});
 
 app.get('/xlsx', (req, res) => {
   let data = [];
