@@ -4,6 +4,6 @@ ADD . /ms-reportjs
 
 WORKDIR /ms-reportjs
 
-RUN npm install 
+RUN npm install --no-optional
 
 CMD ["npm","start"]
