@@ -5,7 +5,7 @@
   "main": "ms-reportjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ms-reportjs"
+    "start": "nodemon --inspect=0.0.0.0 ./ms-reportjs.js"
   },
   "keywords": [
     "report",
