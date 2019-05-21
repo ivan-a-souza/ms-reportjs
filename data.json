@@ -17,26 +17,4 @@
             "sexo": "Feminino"
         }
     ]
-},
-{
-    "fileName": "report.xlsx",
-    "sheets": [
-        {
-            "title": "Planilha 1",
-            "heading": [
-                "Nome",
-                "Idade"
-            ],
-            "dataSource": "/api/residentes?fields=nome,idade"
-        },
-        {
-            "title": "Planilha 2",
-            "heading": [
-                "Nome",
-                "Idade"
-            ],
-            "dataSource": "/api/preceptores?fields=nome,idade"
-        }
-
-    ]
 }
