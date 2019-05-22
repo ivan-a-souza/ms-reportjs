@@ -1,0 +1,14 @@
+{
+    "fileName": "report.xlsx",
+    "worksheets": [
+        {
+            "title": "Planilha 1",
+            "heading": [
+                "Nome",
+                "Idade",
+                "Sexo"
+            ],
+            "dataSource": "http://localhost:7890/api/example/collection" 
+        }
+    ]
+}

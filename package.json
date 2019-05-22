@@ -1,11 +1,12 @@
 {
   "name": "ms-reportjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "microservice made with nodejs to create xlsx reports from api datasources",
   "main": "ms-reportjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect=0.0.0.0 ./ms-reportjs.js"
+    "start": "nodemon --inspect=0.0.0.0 ./server.js",
+    "clear:files": "rm -f ./files/*"
   },
   "keywords": [
     "report",
@@ -24,6 +25,10 @@
     "express": "^4.17.0",
     "morgan": "^1.9.1",
     "nodemon": "^1.19.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "uniqid": "^5.0.3"
+  },
+  "devDependencies": {
+    "minimist": "^1.2.0"
   }
 }

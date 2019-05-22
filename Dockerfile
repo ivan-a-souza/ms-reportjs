@@ -8,5 +8,6 @@ RUN npm install --no-optional
 
 EXPOSE 7890
 
-CMD ["npm","start"]
+CMD ["npm","run","clear:files"]
+CMD ["npm","run","start"]
 
